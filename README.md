@@ -13,3 +13,5 @@ A ideia do projeto era criar um sistema de gestão onde os alunos pudessem consu
 Essa parte, apesar de não ter sido feita da maneira como imaginei, está executada como pode ser visualizado nos prints. Mas eu pretendia que fosse feito o login
 de fato na página e depois ao clicar na respectiva aba já aparecessem as notas, mas ainda não consegui realizar isso. Também queria desenvolver a interface para 
 os docentes inserirem os dados, mas não consegui executar essa parte, então apenas utilizei os dados "prontos" obtidos do banco de dados cujo script está no repositório.
+
+<a href='https://youtu.be/ODI3M3hRgx4'>Vídeo YouTube</a>
