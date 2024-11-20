@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #7ac9fd;
+}
+
+.main-header {
+  overflow: hidden;
+  background-color: #2fa0ec;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #2fa0ec;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  margin-left: 10px;
+  margin-right: 70%;
+}
+
+.icones-menu {
+  width: 50px;
+  height: 50px;
+  border: 10px;
+  border-radius: 30px;
+}
+
+.icones-menu.active {
+  width: 50px;
+  height: 50px;
+  background-color: #0049e7;
+}
+
+.content-left {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.content-right {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.content-center {
+  padding: 20px 0;
+  text-align: left;
+}
+
+.topnav a {
+  float: right;
+  color: #00426e;
+  text-align: center;
+  padding: 14px 16px 0px 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav p {
+  color: #00426e;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #7ac9fd;
+}
+
+.topnav a.active {
+  background-color: #0049e7;
+}
+
+.myindex {
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+
+.mytable {
+  display: flex;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: auto;
+  padding: -0px 10px 0px 10px;
+}
+
+
+table, tr {
+  border:1px solid black;
+
+}
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 150px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 50; /* Stay at the top */
+  left: 0;
+  background-color: #7ac9fd; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #00426e;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #ffffff;
+}
+
+.sidenav a.active {
+  background-color: #0049e7;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.myprodutos {
+    display: flex;
+   }
+   
+   .myprodutos div {
+    text-align: center;
+    align-items: center;
+    float:left;
+   }
+
+.my33 {
+    display: flex;
+   }
+   
+   .my33 div {
+    width: 33%;
+    float: left;
+   }
