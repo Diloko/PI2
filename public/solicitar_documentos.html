@@ -19,9 +19,9 @@
 </div>
 
 <div class="sidenav">
-  <a class="active" href="consultar_notas.html">Consultar Notas</a>
+  <a href="consultar_notas.html">Consultar Notas</a>
   <a href="horario_aulas.html">Horário Aulas</a>
-  <a href="solicitar_documentos.html">Solicitar Documentos</a>
+  <a class="active" href="solicitar_documentos.html">Solicitar Documentos</a>
 </div>
 
 <div class="main">
@@ -31,15 +31,13 @@
     <div class="content-left"></div>
 
     <div class="content-center">
-    <h2>Login</h2>
-    <form id="login-form" enctype="multipart/form-data" action="/login" method="post"><br>
-    Usuário: <input type="text" name="usuario"><br>
-    Senha: <input type="password" name="senha"><br>
-    <input type="submit" value="Login">
-    </form>
-    <div id="tabela-container"> <!-- A tabela será inserida aqui --> </div>
-    <script src="script.js"></script>
-    </div>
+      <h2>Enviar Solicitação</h2> 
+      <form id="solicitacao-form" action="/enviar-solicitacao" method="post"> 
+      Nome: <input type="text" name="nome" required><br> 
+      Email: <input type="email" name="email" required><br> 
+      Mensagem: <textarea name="mensagem" rows="5" cols="30" required></textarea><br> 
+      <input type="submit" value="Enviar">
+      </form>
 
 <div class="content-right"></div>
 
